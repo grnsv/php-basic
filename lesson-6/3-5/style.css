@@ -1,0 +1,203 @@
+.container {
+    width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #f8f8f8;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    height: 100px;
+    box-sizing: border-box;
+    background: lightblue url("img/No-Branding-Header-Background-1.jpg") center/cover;
+}
+
+header img {
+    margin: 0px 10px;
+    width: 100px;
+    border-radius: 10px;
+    float: left;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu li {
+    margin: 0px 10px;
+    flex: 0.3;
+    border-radius: 10px;
+    text-align: center;
+    background-color: lightcyan;
+}
+
+.menu li a {
+    display: block;
+    width: 100%;
+    height: 60px;
+    font: oblique 20px/60px Verdana, Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: darkblue;
+}
+
+.menu li a:hover {
+    color: darkmagenta;
+}
+
+.heading {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.catalogue {
+    list-style: none;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+}
+
+.catalogue li {
+    flex: 1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #B0E0E6;
+    height: 200px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.image {
+    float: left;
+    margin-right: 5px;
+}
+
+.short-description p {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.full-description p {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.short-description p::first-letter,
+.full-description p::first-letter {
+    font-size: 30px;
+    color: darkblue;
+}
+
+.characteristics {
+    clear: both;
+}
+
+.characteristics li {
+    color: #595959;
+    font-size: 15px;
+    line-height: 18px;
+    list-style-type: "\1F449";
+}
+
+.table {
+    border: 1px solid #000;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    border: 1px solid #000;
+    width: 50%;
+    padding-left: 10px;
+}
+
+.table th {
+    height: 30px;
+}
+
+a img {
+    outline: 2px solid lightblue;
+}
+
+a img:hover {
+    outline: none;
+}
+
+#buy {
+    font-size: 32px;
+    padding: 10px;
+    float: right;
+}
+
+#buy:hover, #buy:focus {
+    color: red;
+}
+
+#buy:active {
+    color: green;
+}
+
+#form fieldset {
+    border-radius: 10px;
+    width: 410px;
+    background: #b4d4d471;
+}
+
+#name, #email, #tel, #topic {
+    width: 400px;
+    height: 24px;
+    color: #336699;
+    font-style: italic;
+    font-size: 14px;
+}
+
+#email:focus {
+    color: black;
+    background-color: #336699;
+}
+
+#message {
+    width: 400px;
+    height: 100px;
+    color: #336699;
+    font-size: 16px;
+}
+
+input[type="text"], textarea {
+    text-transform: capitalize;
+}
+
+input:invalid {
+    border: 2px solid red;
+}
+
+.maps {
+    display: none;
+}
+
+.maps iframe {
+    width: 100%;
+    height: 374px;
+}
+
+footer {
+    margin-top: 20px;
+    background: #eee;
+    height: 52px;
+}
+
+footer small {
+    float: right;
+    margin: 10px 10px;
+}
